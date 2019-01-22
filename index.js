@@ -11,12 +11,12 @@ request(url, function (err, response, body) {
   } else {
     let weather = JSON.parse(body)
     let message = `
-    Location: ${weather.name}
-    Temperature: ${weather.main.temp}°C
-    Cloudliness: ${weather.clouds.all} %
-    Humidity: ${weather.main.humidity} %
-    Wind: ${weather.wind.speed} m/s
-    Pressure: ${weather.main.pressure*0.75} mmHg
+    ► Location: ${weather.name}                     
+    ► Temperature: ${weather.main.temp}°C         
+    ► Cloudliness: ${weather.clouds.all} %      
+    ► Humidity: ${weather.main.humidity} %              
+    ► Wind: ${weather.wind.speed} m/s                     
+    ► Pressure: ${weather.main.pressure*0.75} mmHg 
     `;
     console.log(message);
   }
