@@ -1,0 +1,26 @@
+{
+  "name": "app-weather-2k19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smokeybz/app-weather-2k19.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "smokeybz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smokeybz/app-weather-2k19/issues"
+  },
+  "homepage": "https://github.com/smokeybz/app-weather-2k19#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^12.0.5"
+  }
+}
